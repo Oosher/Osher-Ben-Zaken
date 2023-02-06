@@ -116,8 +116,10 @@ window.onscroll =()=>{
 biggerCursor.addEventListener("click",()=>{
     if (isEnlarged) {
         document.body.style.cursor= "default";
+        biggerCursor.style.backgroundColor="white";
     }else{
         document.body.style.cursor ="url(./images/cursor.png),auto";
+        biggerCursor.style.backgroundColor="dodgerblue";
     }
 
     isEnlarged =!isEnlarged;
