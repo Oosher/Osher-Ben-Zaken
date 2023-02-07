@@ -23,6 +23,8 @@ const biggerCursor = document.querySelector("#biggerCursor");
 
 const underline = document.querySelector("#underline");
 
+const menuIcon  = document.querySelector(".menuIcon")
+
 const allElements =  document.getElementsByTagName("*");
 
 
@@ -37,6 +39,8 @@ let contrasted = false;
 let underlined = false;
 
 let isEnlarged = false;
+
+let menuIsOpen = false;
 
 let additiveFontSize = 0;
 
@@ -183,3 +187,21 @@ function changeFontSize (){
 }
 
 
+
+
+menuIcon.addEventListener("click",()=>{
+
+
+    if (menuIsOpen) {
+        navBar.style.display="none";
+        menuIsOpen=false;
+
+    }
+    else{
+        navBar.style.display="block";
+        menuIsOpen=true;
+    }
+
+
+
+})
