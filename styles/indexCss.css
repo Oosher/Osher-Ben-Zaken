@@ -317,8 +317,8 @@ footer{
 
     header{
         position: sticky;
-        width: 100vw;
-        height: 5vh;
+        width: 99.35vw;
+        height: fit-content;
     }
     #navBar{
         display: none;
@@ -340,16 +340,19 @@ footer{
         left: 0px;
         top: 5vh;
         height: 100vh;
-        width: 15vw;
+        width: fit-content;
         background-color: aquamarine;
     }
 
     li{
+        margin-top: 10px;
         height: 4vh;
         width: 100%;
         text-align: center;
-        vertical-align: middle;
-        padding-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
     li:hover{
         background-color: black;
