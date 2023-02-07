@@ -257,17 +257,19 @@ textarea{
 }
 
 section:nth-child(odd){
-
     background-image: url("../images/25101.jpg");
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
     background-repeat: no-repeat;
-
 
 }
 section:nth-child(even){
-
-    background-image: url("../images/25101.jpg");
-    background-size: cover;
+    background-image: url("../images/25101fliped.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
 
 }
 
