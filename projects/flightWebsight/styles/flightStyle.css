@@ -1,0 +1,103 @@
+
+  .flightSearch,
+        .container {
+            margin: 10px auto;
+            text-align: center;
+            width: fit-content;
+            padding: 3px;
+            /*     border: 4px lightseagreen groove; */
+
+        }
+
+        .flightSearch {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 0.5vh;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.327);
+            padding: 15px;
+            border-radius: 10px;
+
+        }
+
+        .container {
+
+            display: flex;
+            padding: 4px;
+
+        }
+
+        #searchAirportsInTheCity,
+        #searchAirportsInTheCityButton {
+            height: 40px;
+            position: relative;
+
+            box-sizing: border-box;
+        }
+
+        .searchContainer {
+            background-image: linear-gradient(180deg, rgb(128, 224, 224), white);
+        }
+
+        .flightSearch input,
+        .flightSearch button,
+        .flightSearch select {
+            height: 4.5vh;
+            box-sizing: border-box;
+        }
+
+        .flightSearch button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            grid-column: 1/4;
+            grid-row: 3/4;
+            font-size: 1em;
+
+        }
+
+        .departueBox,
+        .returnBox {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .departueBox {
+            grid-row: 2/3;
+            grid-column: 1/2;
+
+        }
+
+        .returnBox {
+            grid-row: 2/3;
+            grid-column: 3/4;
+        }
+
+        /*         .onceptBox {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            column-gap: 5px;
+            text-align: center;
+            width: fit-content;
+            padding: 3px;
+
+            border-radius: 10px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+
+        .onceptBox h2 {
+            color: blue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        } */
+
+        /*   .onceptBox button {
+            border: solid darkblue 1px;
+            border-radius: 5px;
+            background-color: whitesmoke;
+            color: blue;
+
+        } */
