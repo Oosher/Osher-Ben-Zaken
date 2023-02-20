@@ -17,14 +17,15 @@ header{
     width: fit-content;
     height: fit-content;
     position: sticky;
-    background-color:aquamarine;
-    top: 0;
+    background-color:rgba(91, 141, 125, 0.566);
+    top: 2vh;
     z-index: 100;
 }
 
 #navBar{
+    
     display: flex;
-    height: 15vh;
+    height: 13vh;
     width: 99.35vw;
     
     border: none;
@@ -351,21 +352,32 @@ footer{
 @media (max-width:990px){
 
     .menuIcon{
+        position: static;
         display: block;
         font-size: 2.5rem ;
         cursor: pointer;
         margin-left: 1vw;
+        margin-top: -4px;
+        z-index: 1;
     }
 
     header{
         position: sticky;
-        width: 99.35vw;
+        width: 100vw;
+        height: 4vh;
+        top: 0;
         height: fit-content;
+        background-color:#4CAF50;
+        
+        
+        
+        
     }
     #navBar{
         display: none;
         height: fit-content;
-        width:fit-content ;
+        
+        
 
             
     }
@@ -380,13 +392,16 @@ footer{
         position: absolute;
         justify-content: start;
         left: 0px;
-        top: 5vh;
         height: 100vh;
         width: fit-content;
-        background-color: aquamarine;
+        background-color: #4CAF50;
+        
+        
     }
 
     li{
+        position: relative;
+        top: 7vh;
         margin-top: 10px;
         height: 4vh;
         width: 100%;
@@ -394,6 +409,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+
         
     }
     li:hover{
@@ -403,5 +419,78 @@ footer{
     
     form{
         width: 90vw;
+
     }
+
+    .projectShowcase{
+        grid-template-columns: 99vw;
+        grid-template-rows: 50vh 50vh;
+        margin: 0 auto;
+
+    }
+
+    .projectShowcase img{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        width: 100vw;
+    }
+    .projectShowcase article{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        align-self: start;
+        margin-top: 6vh;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .projectShowcase a {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        width: 80vw;
+        position: absolute;
+        margin:0 auto;
+        margin-top: 70vh;
+        
+
+    }
+
+    .projectShowcase:nth-child(even) img{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        
+    }
+    .projectShowcase:nth-child(even) article{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        align-self: start;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .projectShowcase:nth-child(even) a{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        
+        position: absolute;
+        
+        margin:0 auto;
+        margin-top: 80vh;
+
+    }
+
+
+    #accessabilityContainer{
+
+        top: 6vh;
+        left: auto;
+        right: 4vw;
+
+    }
+}
+
+
+button:hover{
+
+    cursor: pointer;
+
 }
