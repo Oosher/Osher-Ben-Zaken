@@ -14,7 +14,7 @@ html{
 
 header{
     display:flex;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     position: sticky;
     background-color:rgba(91, 141, 125, 0.566);
@@ -26,7 +26,7 @@ header{
     
     display: flex;
     height: 13vh;
-    width: 99.35vw;
+    width: 100%;
     
     border: none;
     
@@ -43,7 +43,7 @@ header{
     grid-template-columns: repeat(3,30vw);
     background-color:white;
     height: 100vh;
-    width: 99.35vw;
+    width: 100%;
     
     
 
@@ -285,7 +285,7 @@ textarea{
 .bodyContainer{
 
     height: fit-content;
-    width: 99.35vw;
+    width: 100%;
 
 }
 
@@ -335,15 +335,7 @@ section:nth-child(even) article{
 
 }
 
-footer{
-    display: block;
-    position: sticky;
-    background-color: #6200ee;
-    height: 13vh;
-    width:99.35vw;
-    z-index: 1;
-    top: 87vh;
-}
+
 
 
 

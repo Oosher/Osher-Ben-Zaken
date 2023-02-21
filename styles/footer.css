@@ -1,0 +1,31 @@
+
+footer{
+    display: flex;
+    position: sticky;
+    background-color: #6200ee;
+    margin: 0px;
+    box-sizing: border-box;
+    box-shadow:  5px 5px 5px;
+    border: none;
+    height: 13vh;
+    width:100%;
+    z-index: 1;
+    top: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer a img {
+
+    width: 3vw;
+    
+
+}
+
+footer a img:hover {
+    cursor: pointer;
+    filter:invert(100%);
+    
+
+}
