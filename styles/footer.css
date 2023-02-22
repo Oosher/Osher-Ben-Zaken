@@ -14,7 +14,7 @@ footer{
     height: 13vh;
     width:100%;
     z-index: 1;
-    top: 1000px;
+    top: 87vh;
     justify-content: space-around;
     align-items: center;
 }
@@ -55,5 +55,39 @@ footer a h3{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 
     transition: opacity 0.2s ease-in-out;
+
+}
+
+
+
+
+
+@media (max-width:990px){
+
+    footer{
+        max-width:  990px;
+        margin: 0 auto;
+        justify-content:space-between;
+        align-items: center;
+        gap: 0;
+
+    }
+
+    footer a{
+        margin: 0;
+        padding: 0;
+    }
+
+    footer a img {
+        width: 6vw;
+
+    }
+
+    footer a h3 {
+        display: block;
+        white-space: nowrap;
+        font-size: 0.5rem;
+
+    }
 
 }

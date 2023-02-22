@@ -361,6 +361,13 @@ section:nth-child(even) article{
 }
 
 
+button:hover{
+
+    cursor: pointer;
+
+}
+
+
 
 
 
@@ -395,8 +402,6 @@ section:nth-child(even) article{
         height: fit-content;
         
         
-
-            
     }
     
 
@@ -435,7 +440,10 @@ section:nth-child(even) article{
     }
     
     form{
+        
         width: 90vw;
+        margin: 1vh auto;
+        margin-bottom:auto;
 
     }
 
@@ -506,8 +514,3 @@ section:nth-child(even) article{
 }
 
 
-button:hover{
-
-    cursor: pointer;
-
-}
