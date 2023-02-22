@@ -3,19 +3,13 @@
 
 body{
 
-    background-image: url("../../../images/projectInfoBara.jpg");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: fit-content;
-    
-
+    background: linear-gradient(90deg, rgba(237,73,44,1) 13%, rgba(203,207,37,1) 63%, rgba(82,180,157,1) 84%);
 }
 
 .projectInfo{
         display: flex;
         flex-direction: column;
-        background-image: url("../../../images/projectInfoBar.jpg");
+        background-image: url("../../../images/colorful.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
@@ -26,8 +20,9 @@ body{
         justify-content: center;
         align-items: center;
         box-shadow: 1px 1px 3px;
-        color:azure;
+        color:black;
         text-shadow: white 2px 2px 5px;
+        box-shadow: 2px 2px 4px black;
         
 }
 
@@ -76,7 +71,7 @@ body{
 .projectImage{
 
     display: block;
-    margin: 20px auto;
+    margin: 3vh auto;
     margin-bottom: 5vh;
     width: 50vw;
 
@@ -132,7 +127,7 @@ body{
 
 .technologiesContainer{
         width: fit-content;
-        margin: 10px auto;
+        margin: 2vh auto;
 
 
 }

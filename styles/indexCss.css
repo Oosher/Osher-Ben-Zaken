@@ -8,6 +8,15 @@
     box-sizing: border-box;
     
 }
+
+body{
+
+
+    background: rgb(72,191,148);
+    background: linear-gradient(180deg, rgba(72,191,148,0.4206057422969187) 0%, rgba(255,255,255,0.7287289915966386) 2%);
+
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -51,11 +60,12 @@ header{
 
 .projectShowcase img{
     width: 60%;
-    align-self: center;
+    align-self:center;
     justify-self: center;
     grid-column: 2/4;
     grid-row: 1/2;
     border-radius: 2px;
+
 }
 
 .projectShowcase a{
@@ -81,6 +91,7 @@ header{
 
     background-color: transparent;
     border: none;
+
 }
 
 .projectShowcase a:hover {
@@ -100,6 +111,7 @@ header{
     justify-self:center;
     font-size: 1.2rem;
     bottom: 0;
+
 }
 
 .projectShowcase article h1 {
@@ -116,6 +128,7 @@ font-size: 2rem;
     font-family: 'Libre Baskerville', serif;
     font-weight:bold;
     font-size: 1.3rem;
+
 }
 #navBar li:hover a{
     color: #ffffff;
@@ -129,9 +142,11 @@ ul{
     align-self: flex-end;
     justify-content:space-evenly;
     margin-bottom: 5px;
+
 }
 li{
     list-style: none;
+
 }
 #progressBar{
     display:block;
@@ -140,6 +155,7 @@ li{
     background-color:darkgoldenrod;
     width: 0%;
     align-self: flex-end;
+
 }
 
 #accessabilityContainer{
@@ -154,15 +170,18 @@ li{
     z-index: 200;
 
 }
+
 #accessabilityImg{
     width: 5vw;
 
 }
+
 #accessabilityOptions{
     display: none;
     flex-direction: column;
     height: fit-content;
     width: fit-content;
+
 }
 
 #accessabilityContainer button{
@@ -294,8 +313,14 @@ section:nth-child(odd){
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+    justify-content: right;
+    column-gap: 1vw;
+    
 
 }
+
+
+
 section:nth-child(even){
     background-image: url("../images/25101fliped.png");
     background-size:cover;

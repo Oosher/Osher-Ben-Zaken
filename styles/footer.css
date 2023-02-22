@@ -3,9 +3,13 @@ footer{
     display: flex;
     position: sticky;
     background-color: #6200ee;
+    background-image: url("../../../images/colorful.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
     box-sizing: border-box;
-    box-shadow:  5px 5px 5px;
+    box-shadow: black -2px -2px 5px ;
     border: none;
     height: 13vh;
     width:100%;
@@ -15,6 +19,15 @@ footer{
     align-items: center;
 }
 
+
+footer a {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 
 footer a img {
 
@@ -27,5 +40,20 @@ footer a img:hover {
     cursor: pointer;
     filter:invert(100%);
     
+
+}
+
+footer a:hover h3 {
+    opacity: 1;
+
+}
+
+footer a h3{
+    color: white;
+    opacity: 0;
+    
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+
+    transition: opacity 0.2s ease-in-out;
 
 }
