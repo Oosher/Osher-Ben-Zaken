@@ -140,3 +140,50 @@ body{
     
 
 }
+
+
+
+
+
+@media (max-width:990px){
+    
+    .projectInfo{
+
+        height: 40vh;
+
+    }
+
+    .projectInfo h1{
+
+        font-size: 2rem;
+        
+    }
+    .projectInfo article{
+
+        font-size: 1rem;
+
+    }
+
+    
+    .projectInfo a {
+
+        width: 60vw;
+        
+
+    }
+
+    .technologiesContainer img{
+
+        height: 10vh;
+        width: auto;
+
+    }
+
+    .projectImage{
+
+        width: 95vw;
+        height: 50vh;
+
+    }
+
+}

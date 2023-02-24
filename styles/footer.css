@@ -67,7 +67,7 @@ footer a h3{
     footer{
         max-width:  990px;
         margin: 0 auto;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items: center;
         gap: 0;
 
@@ -89,5 +89,6 @@ footer a h3{
         font-size: 0.5rem;
 
     }
+
 
 }
