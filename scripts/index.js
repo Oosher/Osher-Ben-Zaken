@@ -23,7 +23,17 @@ const biggerCursor = document.querySelector("#biggerCursor");
 
 const underline = document.querySelector("#underline");
 
-const menuIcon  = document.querySelector(".menuIcon")
+const menuIcon  = document.querySelector(".menuIcon");
+
+const fullName = document.querySelector("#fullName");
+
+const email = document.querySelector("#email");
+
+const phoneNumber = document.querySelector("#phoneNumber");
+
+const messageUs  = document.querySelector("#messageUs");
+
+const sendFormButton  = document.querySelector("#sendFormButton");
 
 const allElements =  document.getElementsByTagName("*");
 
@@ -205,3 +215,54 @@ menuIcon.addEventListener("click",()=>{
 
 
 })
+
+
+
+
+
+//form validation 
+
+
+
+
+
+
+sendFormButton.addEventListener("click",formValidation);
+
+
+
+function formValidation(){
+
+
+    if (email.value==""||fullName.value==""||phoneNumber.value==""||messageUs.value=="") {
+        alert("All fields must be filled")
+        return;
+    }
+
+
+    if(!(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email.value))){
+
+        alert("Must submit a Valid email  address")
+        return;
+        
+    }
+
+
+    if (phoneNumber.value.length<9||phoneNumber.value.length>10) {
+        
+        alert("Phone number must be between 9 to 10 digits exactly")
+        return;
+    }
+
+    fullName.value="";
+    email.value="";
+    phoneNumber.value=""
+    messageUs.value=""
+
+    alert("Thank you For messaging us")
+
+
+
+
+
+}

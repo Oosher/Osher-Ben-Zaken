@@ -235,7 +235,8 @@ form{
 }
 
 form input[type="text"],
-form input[type="email"]{
+form input[type="email"],
+form input[type="number"]{
     color: rgba(0,0,0,.87);
     border-bottom-color: rgba(0,0,0,.42);
     font-size: 1rem;
@@ -369,7 +370,35 @@ button:hover{
 
 
 
+#infoContainer{
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute ;
+    top: 15vh;
+    margin-left: 1vw;
+}
+
+#infoContainer img{
+
+    height: 2rem;
+
+}
+
+
+
+.copyRightContainer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    
+   
+
+}
 
 
 
@@ -508,6 +537,12 @@ button:hover{
         top: 6vh;
         left: auto;
         right: 4vw;
+
+    }
+
+    #infoContainer{
+
+        top: 8vh;
 
     }
 }

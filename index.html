@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osher Ben Zaken Project</title>
+    <link rel="shortcut icon" href="/images/myimg.png" type="image/x-icon">
     <link rel="stylesheet" href="/styles/indexCss.css">
     <link rel="stylesheet" href="/styles/footer.css">
+
 </head>
 
 <body>
@@ -15,10 +17,12 @@
         <div class="menuIcon">&#9776</div>
         <nav id="navBar">
             <ul>
-                <li><a href="#div1">Flight Website</a></li>
-                <li><a href="#div2">Crypto website</a></li>
-                <li><a href="#div3">Car Game</a></li>
-                <li><a href="#div4">Movie website</a></li>
+                <li><a href="#flightWebsit">Flight Website</a></li>
+                <li><a href="#cirptoSight">Crypto website</a></li>
+                <li><a href="#carGameWebsite">Car Game</a></li>
+                <li><a href="#movieWebsite">Movie website</a></li>
+                <li><a href="#toDoList">To do list</a></li>
+                <li><a href="#weatherWebsite">Weather site</a></li>
                 <li><a href="#formContainer">Contact Us</a></li>
             </ul>
             <h1 id="progressBar"></h1>
@@ -43,9 +47,13 @@
     </header>
 
     <div class="bodyContainer">
+        <div id="infoContainer">
+            <img src="/images/myimg.png" alt="Osher-Ben-Zaken_img">
+            <h2>Osher Ben Zaken</h2>
+        </div>
 
-        <section id="div1" class="projectShowcase">
-            <img src="/images/FlightWebsitMain.PNG" alt="">
+        <section id="flightWebsit" class="projectShowcase">
+            <img src="/images/FlightWebsitMain.PNG" alt="FlightWebsitMain">
             <article>
                 <h1>Flight Website</h1>
                 A website that uses an api to get flight data and present it to you by least expensive to most expensive
@@ -54,57 +62,57 @@
             </article>
             <a href="/projects/flightWebsight/introPage/introPage.html"><button> Go to the project</button></a>
         </section>
-        <section id="div2" class="projectShowcase">
-            <img src="/images/cirptoSightImg.PNG" alt="">
+        <section id="cirptoSight" class="projectShowcase">
+            <img src="/images/cirptoSightImg.PNG" alt="cirptoSightImg">
             <article>
                 <h1>Crypto website</h1>
                 A crypto website that let you search and sort all of the crypto coins in the market
             </article>
             <a href="/projects/criptoSight/introPage/introPage.html"><button> Go to the project</button></a>
         </section>
-        <section id="div3" class="projectShowcase">
-            <img src="/images/carGameWebsiteImg.PNG" alt="">
+        <section id="carGameWebsite" class="projectShowcase">
+            <img src="/images/carGameWebsiteImg.PNG" alt="carGameWebsiteImg">
             <article>
                 <h1>Car Game</h1>
                 if you want to have someone fun heres a take on snake
             </article>
             <a href="/projects/webCarGame/introPage/introPage.html"><button> Go to the project</button></a>
         </section>
-        <section id="div4" class="projectShowcase">
-            <img src="/images/movieWebsiteImg.PNG" alt="">
+        <section id="movieWebsite" class="projectShowcase">
+            <img src="/images/movieWebsiteImg.PNG" alt="movieWebsiteImg">
             <article>
                 <h1>Movie website</h1>
                 if you want to create your own movie list this is the best website for you
             </article>
             <a href=" /projects/movieWebsite/introPage/introPage.html"><button> Go to the project</button></a>
         </section>
-        <section id="div4" class="projectShowcase">
-            <img src="/images/sectionBackground.jpg" alt="">
+        <section id="toDoList" class="projectShowcase">
+            <img src="/images/toDoList.PNG" alt="toDoListImg">
             <article>
-                <h1>Project title</h1>
-                this is may project Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, debitis?
+                <h1>To Do List</h1>
+                A website that allows you to create a simple to do list for keeping up width your tasks
             </article>
-            <a href="/projects/flightWebsight/introPage/introPage.html"><button> Go to the project</button></a>
+            <a href="/projects/todoList/introPage/introPage.html"><button> Go to the project</button></a>
         </section>
-        <section id="div4" class="projectShowcase">
-            <img src="/images/sectionBackground.jpg" alt="">
+        <section id="weatherWebsite" class="projectShowcase">
+            <img src="/images/weatherWebsite.PNG" alt="weatherWebsiteImg">
             <article>
-                <h1>Project title</h1>
-                this is may project Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, debitis?
+                <h1>Weather website</h1>
+                Just select a country and see the temperature in that country's capital
             </article>
-            <a href="/projects/flightWebsight/introPage/introPage.html"><button> Go to the project</button></a>
+            <a href="/projects/weatherWebsite/introPage/introPage.html"><button> Go to the project</button></a>
         </section>
 
         <section id="formContainer">
             <form action="" id="form">
-                <label for="" id="formStart">Name</label>
-                <input type="text" placeholder="Name">
-                <label for="">Email</label>
-                <input type="email" placeholder="Email">
-                <label for="">Phone Number</label>
-                <input type="text" placeholder="Phone Number">
-                <label for="Messege Us">Messege Us</label><br>
-                <textarea name="Messege Us" id="" cols="30" rows="10" placeholder="Free Text"></textarea>
+                <label for="fullName">Name</label>
+                <input type="text" placeholder="Name" id="fullName">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" id="email">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="number" placeholder="Phone Number" id="phoneNumber">
+                <label for="Message Us">Messege Us</label><br>
+                <textarea name="Message Us" id="messageUs" cols="30" rows="10" placeholder="Free Text"></textarea>
                 <input type="button" value="Send Form" id="sendFormButton">
 
             </form>
@@ -115,30 +123,35 @@
 
     <footer>
         <a data-clipboard-text="+972-0587000644">
-            <img src="/images/whatsapp.png" alt="">
+            <img src="/images/whatsapp.png" alt="whatsappImg">
             <h3>+972-0587000644</h3>
         </a>
 
         <a data-clipboard-text="+972-0587000644">
-            <img src="/images/call.png" alt="">
+            <img src="/images/call.png" alt="callImg">
             <h3>+972-0587000644</h3>
         </a>
 
         <a data-clipboard-text="oosher18@gmail.com">
-            <img src="/images/email.png" alt="">
+            <img src="/images/email.png" alt="emailImg">
             <h3>oosher18@gmail.com</h3>
         </a>
 
         <a href="https://twitter.com/ZakenOsher/status/1166833376155844609?" target="_blank">
-            <img src="/images/twitter.png" alt="">
+            <img src="/images/twitter.png" alt="twitterImg">
             <h3>Twitter</h3>
         </a>
 
         <a href="https://www.linkedin.com/in/osher-ben-zaken-803b97217" target="_blank">
-            <img src="/images/linkedin-logo.png" alt="">
+            <img src="/images/linkedin-logo.png" alt="linkedinImg">
             <h3>Linkdin</h3>
         </a>
+
     </footer>
+    <div class="copyRightContainer">
+        <h6>Osher Ben Zaken 2023</h6>
+        <h6>כל הזכויות שמורות לאושר בן זקן</h6>
+    </div>
 
     <script src="/scripts/index.js"></script>
 
